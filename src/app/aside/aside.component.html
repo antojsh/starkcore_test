@@ -1,0 +1,39 @@
+<aside>
+  <div class="brand-container">
+    <img src="/assets/logo.PNG" alt="">
+  </div>
+
+  <div class="aside-filters">
+    <div class="header-aside-filters">
+      <i class="far fa-lightbulb"></i>
+      <span>Smart Filters</span>
+    </div>
+    <div class="body-aside-filters">
+      <ul>
+        <li>
+          <img src="/assets/sale.PNG" alt="">
+          <app-toggle></app-toggle>
+        </li>
+        <li>
+          <img src="/assets/calendar.PNG" alt="">
+          <app-toggle></app-toggle>
+        </li>
+
+        <li>
+          <img src="/assets/heart.PNG" alt="">
+          <app-toggle></app-toggle>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-aside-filters">
+      <span>Smart Filters</span>
+      <div class="box-search">
+        <input type="search" placeholder="Search" [(ngModel)]="query">
+      </div>
+      <div class="box-search">
+        <p>DELIVERED</p>
+      </div>
+    </div>
+  </div>
+</aside>

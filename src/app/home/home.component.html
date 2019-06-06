@@ -1,0 +1,42 @@
+<div class="travels">
+  <ul class="list-travels">
+    <li class="item-travels">
+      <div class="check-circle">
+        <i class="fas fa-check"></i>
+      </div>
+      <div class="box-search">
+        <input type="search" placeholder="Search" [(ngModel)]="query">
+      </div>
+    </li>
+    <li class="item-travels" *ngFor="let item of travelsList  | search:'id,origin,destination,price':query">
+      <div class=" check-circle">
+        <i class="fas fa-check"></i>
+      </div>
+      <div class="card-travel">
+        <div class="date-travel">
+          <!-- <p>Monday <br>10 2:28 <br>PM</p> -->
+          <p>{{item.date | date }}</p>
+        </div>
+        <div class="ubications">
+          <p>{{item.origin}}</p>
+          <i class="fas fa-chevron-down"></i>
+          <p>{{item.destination}}</p>
+        </div>
+        <div class="price-options">
+          <i class="fas fa-truck"></i>
+          <span class="price">
+            {{item.price | currency:'USD':true:'1.0-0'  }}
+          </span>
+          <div class="box-notification">
+            1
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+<button class="floating-button">
+  <i class="fas fa-plus"></i>
+</button>

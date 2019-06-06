@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+span,
+p,
+input {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.box-search {
+  width: auto;
+  height: 45px;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-search input {
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+.floating-button{
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  background: #ee8d38;
+
+}
+
+.floating-button i{
+  color: white;
+  font-size: 2em;
+}

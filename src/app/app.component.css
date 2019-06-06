@@ -1,0 +1,24 @@
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #e6e6e6;
+}
+
+.wrap-content{
+    box-sizing: border-box;
+    position: absolute;
+    left: 300px;
+    width: calc(100vw - 300px);
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.content{
+    padding: 1.5em 0;
+}
+
+

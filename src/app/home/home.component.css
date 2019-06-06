@@ -1,0 +1,104 @@
+.check-circle {
+  width: 50px;
+  height: 50px;
+  background: #ee8d38;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  flex-basis: 50px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+
+.check-circle i {
+  color: white;
+}
+
+.card-travel {
+  background: white;
+  border-radius: 40px;
+  padding: 2em;
+  width: calc(100% - 80px);
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.item-travels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 1em;
+}
+
+.item-travels .date-travel {
+  display: flex;
+  align-items: center;
+}
+
+.item-travels .date-travel p {
+  text-align: center;
+  color: #858585;
+  width: 115px;
+}
+
+
+.ubications {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+
+.ubications p {
+  margin: .5em;
+  color: #858585;
+}
+
+.ubications i {
+  color: #ee8d38;
+  font-size: 2em;
+}
+
+
+.box-notification {
+  width: 40px;
+  height: 40px;
+  background: #ed5356;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: .7rem;
+}
+
+
+.price-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.price-options i {
+  font-size: 3em;
+  color: #858585;
+}
+
+.price-options .price {
+  font-size: 2em;
+  color: #858585;
+}
+
+
+
+.box-search input{
+  width: 250px;
+}
